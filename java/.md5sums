@@ -1,0 +1,7 @@
+d92c4b54518ddbc29d48f42d3f1a7759  src/ModulationAssemblyController/java/ModulationAssemblyController.java
+c99df9fa4ab0cd042eac42fcee6441c3  reconf
+8413ced5f450c6d640ce2d1cc9763fae  src/ModulationAssemblyController/java/ModulationAssemblyController_base.java
+72a813ea8a425c807304f790cd8afae6  configure.ac
+f4642ff1d481e22a020d770dbdf48965  startJava.sh
+02a39a38c10e3440ee24d7cc7f6c5905  src/ModulationAssemblyController/java/ports/CF_ResourceOutPort.java
+40a03352d9215dc0f9c3c48ddfa7dc93  Makefile.am

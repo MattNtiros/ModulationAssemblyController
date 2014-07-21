@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE softpkg PUBLIC "-//JTRS//DTD SCA V2.2.2 SPD//EN" "softpkg.dtd">
+<softpkg id="DCE:c23c4c15-45b5-4863-b02a-dd10651710ed" name="ModulationAssemblyController" type="sca_compliant">
+  <title></title>
+  <author>
+    <name>null</name>
+  </author>
+  <propertyfile type="PRF">
+    <localfile name="ModulationAssemblyController.prf.xml"/>
+  </propertyfile>
+  <descriptor>
+    <localfile name="ModulationAssemblyController.scd.xml"/>
+  </descriptor>
+  <implementation id="java">
+    <description>The implementation contains descriptive information about the template for a software component.</description>
+    <code type="Executable">
+      <localfile name="java"/>
+      <entrypoint>java/startJava.sh</entrypoint>
+    </code>
+    <compiler name="/usr/bin/javac" version="1.5"/>
+    <programminglanguage name="Java"/>
+    <humanlanguage name="EN"/>
+    <runtime name="/usr/bin/java" version="1.5"/>
+    <os name="Linux"/>
+  </implementation>
+</softpkg>

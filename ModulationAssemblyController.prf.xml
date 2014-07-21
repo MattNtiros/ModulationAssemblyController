@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties PUBLIC "-//JTRS//DTD SCA V2.2.2 PRF//EN" "properties.dtd">
+<properties>
+  <simple id="sample_rate" mode="readwrite" type="float" complex="false">
+    <value>4000</value>
+    <kind kindtype="configure"/>
+    <action type="external"/>
+  </simple>
+  <simple id="baud_rate" mode="readwrite" type="float" complex="false">
+    <value>100</value>
+    <kind kindtype="configure"/>
+    <action type="external"/>
+  </simple>
+  <simple id="tuner_freq" mode="readwrite" type="float" complex="false">
+    <value>1000</value>
+    <kind kindtype="configure"/>
+    <action type="external"/>
+  </simple>
+  <simple id="mod_level" mode="readwrite" type="ushort" complex="false">
+    <value>4</value>
+    <kind kindtype="configure"/>
+    <action type="external"/>
+  </simple>
+  <struct id="Advanced" mode="readwrite">
+    <simple id="oversample_num" type="ushort" complex="false">
+      <value>4</value>
+    </simple>
+    <simple id="packet_size" mode="readwrite" type="ulong" complex="false">
+      <value>1000</value>
+      <kind kindtype="configure"/>
+      <action type="external"/>
+    </simple>
+    <configurationkind kindtype="configure"/>
+  </struct>
+</properties>
